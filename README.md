@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project brings tweets from twitter based on search terms user added.
+To setup this project, take following steps.
 
-Things you may want to cover:
+* Create environment variables. Run the following command:
+  >$ cp .env.example .env
+  - In .env file, set values for database configuration variables and set twitter configuration variables.
 
-* Ruby version
+* Create .ruby-gemset file in project root path. Create file with the following command.
+  >$ touch .ruby-gemset
+  - Write name of gemset in the file.
 
-* System dependencies
+* Install Bundle. Run command.
+  >$ bundle install
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Run Application
+  >$ rails s

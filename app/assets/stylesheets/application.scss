@@ -13,10 +13,5 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
- .tweets-container {
-  background: #f7f7f7;
-  padding: 16px 16px;
-}
-.txt-tweet , .btnSearch{
-  padding: 0px;
-}
+ @import "tweets";
+ 
